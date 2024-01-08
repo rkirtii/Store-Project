@@ -1,47 +1,3 @@
-// fetch('http://127.0.0.1:5000/store')
-// .then((response)=>{
-//     return response.json()
-// })
-// .then((data)=>{
-//     console.log(data);
-// })
-// .catch((error) => console.log('E : ', error)
-// )
-
-
-
-// function fetchData() {
-//     fetch('http://127.0.0.1:5000/item')
-//     // fetch('http://127.0.0.1:5000/store')
-//         .then(response => {
-            
-//             return response.json();
-//         })
-//         .then(data => {
-//             // Display the data on the webpage
-//             document.getElementById('resultContainer').innerHTML = JSON.stringify(data, null, 2);
-
-
-//             // console.log(data);
-//         })
-//         .catch(error => {
-//             console.error('Error:', error);
-//             document.getElementById('resultContainer').innerHTML = 'Error fetching data.';
-//         });
-// }
-
-// document.getElementById('fetchDataButton').addEventListener('click', fetchData);
-
-
-
-
-
-
-
-
-
-
-
 function fetchData1() {
     fetch('http://127.0.0.1:5000/item')
         .then(response => response.json())
@@ -113,3 +69,61 @@ function displayData(data) {
 document.getElementById('fetchDataButton1').addEventListener('click', fetchData1);
 document.getElementById('fetchDataButton2').addEventListener('click', fetchData2);
 document.getElementById('delete').addEventListener('click', deleteStore);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// fetch('http://127.0.0.1:5000/store')
+// .then((response)=>{
+//     return response.json()
+// })
+// .then((data)=>{
+//     console.log(data);
+// })
+// .catch((error) => console.log('E : ', error)
+// )
+
+
+
+// function fetchData() {
+//     fetch('http://127.0.0.1:5000/item')
+//     // fetch('http://127.0.0.1:5000/store')
+//         .then(response => {
+            
+//             return response.json();
+//         })
+//         .then(data => {
+//             // Display the data on the webpage
+//             document.getElementById('resultContainer').innerHTML = JSON.stringify(data, null, 2);
+
+
+//             // console.log(data);
+//         })
+//         .catch(error => {
+//             console.error('Error:', error);
+//             document.getElementById('resultContainer').innerHTML = 'Error fetching data.';
+//         });
+// }
+
+// document.getElementById('fetchDataButton').addEventListener('click', fetchData);
+
+
+
+
+
