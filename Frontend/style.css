@@ -1,0 +1,54 @@
+/*
+body{
+	background-image: url(https://unsplash.com/photos/hafblMPapes/download?ixid=M3wxMjA3fDB8MXxhbGx8OXx8fHx8fDJ8fDE3MDI2MzI2NTJ8&force=true);
+	background-size: cover;
+}
+h1 {
+	color: #FF5F00;
+	text-align: center;
+	border : 7px solid #792D00;
+	cursor: pointer;
+}
+
+p {
+	color: brown;
+}
+li{
+	list-style: none;
+	display: inline-block;
+}
+
+.text{
+	border: dashed;
+
+}
+
+.on{
+
+	color: pink;
+}
+
+.popo{
+	color: purple;
+}**/
+
+.json-container {
+    font-family: 'Courier New', monospace;
+}
+
+.json-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.json-item {
+    margin-bottom: 10px;
+}
+
+.json-key {
+    font-weight: bold;
+}
+
+.json-value {
+    margin-left: 10px;
+}
