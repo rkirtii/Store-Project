@@ -45,7 +45,7 @@ store = {9805c262c62b4643becc07dc51f84a51 : {"id": "9805c262c62b4643becc07dc51f8
 
 
 ## Screenshots
-(If screenshot is not availabe, click on the lick
+(If screenshot is not availabe, click on the link)
 
 All items and stores
 
